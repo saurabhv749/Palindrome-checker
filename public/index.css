@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://sjunkins.files.wordpress.com/2012/04/the-best-top-desktop-hd-dark-black-wallpapers-dark-black-wallpaper-dark-background-dark-wallpaper-23.jpg?w=900');
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.palincheck {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  background: linear-gradient(to bottom right, rgb(173, 172, 172), white);
+  width: 90%;
+  border: 2px solid gray;
+  font-family: sans-serif;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 25px;
+  color: darkblue;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+input {
+  background: linear-gradient(to bottom right, rgb(173, 172, 172), white);
+
+  width: 60%;
+  border-radius: 12px;
+  outline: none;
+}
+button {
+  width: 20%;
+  color: white;
+  font-size: 1rem;
+  background: rgb(214, 68, 55);
+  padding: 8px;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+button:hover {
+  background: rgba(214, 68, 55, 0.8);
+}
+button:active {
+  background: orangered;
+}
+.result {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  background: linear-gradient(to bottom right, rgb(173, 172, 172), white);
+  font-weight: 600;
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  padding: 10px;
+  border-radius: 12px;
+  color: blue;
+  text-shadow: -1px 1px black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  font-family: monospace;
+  color: white;
+}
